@@ -3,5 +3,5 @@ package com.artdengun.lambda;
 @FunctionalInterface
 public interface SimpleActions {
 
-    String Action();
+    String Action(String name);
 }
